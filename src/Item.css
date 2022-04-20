@@ -1,0 +1,64 @@
+.item{
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    
+}
+.item__container{
+    display: flex;
+    flex-direction: column;
+    scroll-snap-align: start;
+}
+.item__upper{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    flex: 1;
+   margin-top: 100px;
+}
+.item__upper > h2{
+    font-size: 35px;
+}
+.item_des{
+    margin-top: 10px;
+}
+.item__drop{
+    text-align: center;
+    
+}
+.item__drop > .MuiSvgIcon-root{
+    font-size: 50px;
+    font-weight: lighter;
+    animation: scroll 2s infinite;
+}
+.theicon{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.twobuttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+}
+.item_des>p{
+    text-transform: capitalize;
+}
+@keyframes scroll{
+    0%{
+        opacity:0;
+        transform: rotate(45deg), translate(-20px, -20px);
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        opacity:0;
+        transform: rotate(45deg), translate(20px,20px);
+    }
+}

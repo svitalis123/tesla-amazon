@@ -1,0 +1,22 @@
+.html{
+    scroll-snap-align: start;
+
+}
+.home{
+    display: flex;
+    
+   
+    flex-direction: column;
+    
+}
+.home__container{
+    height: 100vh;
+   
+}
+.home__slide{
+ cursor: pointer;
+  
+}
+html::-webkit-scrollbar{
+    display: none;
+}

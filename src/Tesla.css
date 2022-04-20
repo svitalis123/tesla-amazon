@@ -1,0 +1,4 @@
+.tesla{
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}

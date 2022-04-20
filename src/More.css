@@ -1,0 +1,14 @@
+.more{
+    position: absolute;
+    z-index: 100;
+    top: 20%;
+    left: 40%;
+    align-items: center;
+    text-decoration: none;
+}
+.more > a{
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: black;
+}

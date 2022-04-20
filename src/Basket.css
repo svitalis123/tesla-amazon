@@ -1,0 +1,22 @@
+.basket{
+    display: flex;
+    height: fit-content;
+ 
+}
+.basket__left{
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+.basket__left>img{
+    
+  width: 100%;
+  object-fit: contain;
+}
+.basket__right{
+    margin-top: 45px;
+    display: flex;
+    
+    flex: 0.3;
+}

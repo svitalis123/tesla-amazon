@@ -1,0 +1,15 @@
+.producttotal{
+    position: fixed;
+    top: 6%;
+    padding: 20px;
+}
+.divtotal>p>span{
+    font-weight: bold;
+}
+.theButton{
+    background-color: orange;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+    padding: 5px;
+}

@@ -1,0 +1,39 @@
+.basketproduct{
+    display: flex;
+    border-bottom: 1px solid gray;
+    width: 100%;
+}
+.basketproduct>img{
+    width: 100px;
+    object-fit: contain;
+    margin: 5px 5px 10px 5px;
+
+}
+.basketproduct__top{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+}
+.basketproduct__upper> h3{
+    text-transform: uppercase;
+}
+.description{
+    text-transform: capitalize;
+}
+.rating{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+}
+.basketproduct__btn{
+    border-radius: 10px;
+    background-color: orange;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    height: 30px;
+    width: 100%;
+    cursor: pointer;
+    padding: 5px;
+}

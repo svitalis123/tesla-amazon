@@ -1,0 +1,65 @@
+.login{
+    position:absolute;
+    top: 20%;
+    left: 20%;
+    height: 350px;
+    max-width: 300px;
+    border: 1px grey solid;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.logoimg{
+    width: 100%;
+    filter: invert(0);
+}
+.login__container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.login__container>form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.but>button{
+    width: 100%;
+    background-color: orange;
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.login__container>button{
+    background-color: orange;
+    border-radius: 8px;
+    padding: 5px; 
+    margin-top: 7px;
+    cursor: pointer;
+}
+.terms{
+    margin-bottom: 7px;
+}
+.login__container>h2{
+    margin-bottom: 20px;
+}
+.email, .password{
+    margin-bottom: 20px;
+}
+.email>span{
+    margin-right: 30px;
+}
+.password>span{
+    margin-right: 3px;
+}
+.thnew{
+    text-align: center;
+    text-transform:  capitalize;
+}
+.amazonlo{
+    filter: invert(1);
+    margin-left: 35%;
+}
